@@ -2,10 +2,10 @@ class Superhero
   attr_accessor :name, :power, :bio
   @@all = []
 
-  def initialize(details)
-    @name  = details[:name]
-    @power = details[:power]
-    @bio   = details[:bio]
+  def initialize(member)
+    @name  = member[:name]
+    @power = member[:power]
+    @bio   = member[:bio]
     @@all << self
   end
 
