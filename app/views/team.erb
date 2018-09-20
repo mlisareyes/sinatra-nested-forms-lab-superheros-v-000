@@ -3,6 +3,7 @@
 <hr>
 <h3>Members: </h3>
 <% @team.members.each do |member| %>
+<% binding.pry %>
   <hr>
   <p>Hero Name: <%= member.name %></p>
   <p>Hero Power: <%= member.power %></p>
