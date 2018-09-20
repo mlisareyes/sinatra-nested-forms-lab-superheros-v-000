@@ -16,8 +16,7 @@ class App < Sinatra::Base
       Superhero.new(details)
     end
 
-    @superheroes = Superhero.all
-    binding.pry
+    @superheroes = Superhero.al
 
     erb :team
 
