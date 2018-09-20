@@ -16,7 +16,6 @@ class App < Sinatra::Base
 
       Superhero.new(details)
       <% binding.pry %>
-
     end
 
     @superheroes = Superhero.all
