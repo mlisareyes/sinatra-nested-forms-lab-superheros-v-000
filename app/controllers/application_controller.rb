@@ -13,6 +13,7 @@ class App < Sinatra::Base
 
     params[:team][:members].each do |details|
       Superhero.new(details)
+      binding.pry
     end
 
     @superheroes = Superhero.all
